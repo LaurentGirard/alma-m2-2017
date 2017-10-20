@@ -79,7 +79,7 @@ As a result, the Git repository of the organization should have 3 pull requests 
 
 Now you will merge the pull request of the **student C** first, then the **student B** and finally the **student A** using REBASE in order to have a linear history if the commit is valid. The history of the main repository should **ALWAYS** stay linear.
 
-In order to do those kind of operations in all the parts of this project, you will NEED to accept the pull request with a rebase strategy in Github and to retrieve and rebase the changes from the main repository in your own repositories. Remember to **NEVER EVER EVER** rebase a commit that has been contributed to a remote repository! Those instructions will not be repeated after this steps even if you have to reproduce them (that's part of the test).
+In order to do those kind of operations in all the parts of this project, you will NEED to accept the pull request with a rebase strategy in Github and to retrieve and rebase the changes from the main repository in your own repositories. Remember to **NEVER EVER EVER** rebase a commit that has been contributed to a remote repository! Those instructions will not be repeated after tis steps even if you have to reproduce them (that's part of the test).
 
 This first step should conclude with a linear history on the Git repository of the organization with four commits in the following (reversed) order:
 - the contribution of the Java class
